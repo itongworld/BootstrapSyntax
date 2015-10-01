@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <link rel="stylesheet" href="assert/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <link href="assert/css/style.css" rel="stylesheet">
+    <title>下拉菜单</title>
+
+</head>
+<body>
+
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="true">
+        Dropdown
+        <span class="caret"></span>
+    </button>
+
+    <ul class="dropdown-menu dropdown-menu-right" arialabelledby="dropdownMenu1">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else</a></li>
+        <li><a href="#">Separated link</a></li>
+    </ul>
+</div>
+
+<br />
+<br />
+<br />
+
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+        Music
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-left">
+        <li class="dropdown-header">AVRIL LAVIGNE</li>
+        <li><a href="#"><span class="glyphicon glyphicon-music"></span>&nbsp;&nbsp;Everybody Hurts</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-music"></span>&nbsp;&nbsp;Innocence</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-music"></span>&nbsp;&nbsp;Girlfriend</a></li>
+
+        <li class="divider"></li>
+        <li class="dropdown-header">THE SCRIPT</li>
+        <li><a href="#"><span class="glyphicon glyphicon-music"></span>&nbsp;&nbsp;Superheroes</a></li>
+        <li class="disabled"><a href="#"><span class="glyphicon glyphicon-music"></span>&nbsp;&nbsp;Hall of Fame</a></li>
+
+        <li class="divider"></li>
+        <li class="dropdown-header">LENKA</li>
+        <li class="disabled"><a href="#"><span class="glyphicon glyphicon-music"></span>&nbsp;&nbsp;The Show</a></li>
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-music"></span>&nbsp;&nbsp;Trouble is a friend</a></li>
+    </ul>
+</div>
+
+
+
+<!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+<script type="text/javascript" src="assert/js/jquery/2.1.4/jquery-2.1.4.min.js"></script>
+<!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+<script type="text/javascript" src="assert/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
