@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="themes/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <title>列表</title>
+    <style type="text/css">
+        body {
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+<h2>一、列表 - 无序列表，有序列表</h2>
+<h3>普通列表</h3>
+<ul>
+    <li>列表项目</li>
+    <li>列表项目</li>
+    <li>列表项目</li>
+    <li>列表项目</li>
+    <li>列表项目</li>
+</ul>
+<br />
+
+<h3>有序列表</h3>
+<ol>
+    <li>项目列表一</li>
+    <li>项目列表二</li>
+    <li>项目列表三</li>
+</ol>
+<br />
+
+<h3>有序列表嵌套</h3>
+<ol>
+    <li>有序列表</li>
+    <li>
+        有序列表
+        <ol>
+            <li>有序列表(2)</li>
+            <li>有序列表(2)</li>
+        </ol>
+    </li>
+    <li>有序列表</li>
+</ol>
+<br /><br />
+
+<h2>二、列表 - 去点列表</h2>
+<!--无序列表去点-->
+<h4>无序列表去点：</h4>
+<ul>
+    <li>
+        项目列表
+        <ul>
+            <li>带有项目符号</li>
+            <li>带有项目符号</li>
+        </ul>
+    </li>
+    <li>
+        项目列表
+        <ul class="list-unstyled">
+            <li>不带项目符号</li>
+            <li>不带项目符号</li>
+        </ul>
+    </li>
+    <li>项目列表</li>
+</ul>
+
+<!--有序列表去序号-->
+<h4>有序列表去点：</h4>
+<ol>
+    <li>
+        项目列表
+        <ol>
+            <li>带有项目编号</li>
+            <li>带有项目编号</li>
+        </ol>
+    </li>
+    <li>
+        项目列表
+        <ol class="list-unstyled">
+            <li>不带项目编号</li>
+            <li>不带项目编号</li>
+        </ol>
+    </li>
+    <li>项目列表</li>
+</ol>
+<br /><br />
+
+
+
+<h2>三、列表 - 内联列表</h2>
+<h4>内联列表：把垂直列表换成水平列表，而且去掉项目符号（编号），保持水平显示。</h4>
+<ul class="list-inline">
+    <li>PHP</li>
+    <li>Javascript</li>
+    <li>JSP</li>
+    <li>JQuery</li>
+</ul>
+<br />
+<ul class="list-unstyled">
+    <li>城市：
+        <ul class="list-inline">
+            <li>北京</li>
+            <li>上海</li>
+            <li>南京</li>
+            <li>厦门</li>
+        </ul>
+    </li>
+</ul>
+<h2>四、列表 - 定义列表</h2>
+<dl>
+    <dt>PHP</dt>
+    <dd>PHP（外文名:PHP: Hypertext Preprocessor，中文名：“超文本预处理器”）是一种通用开源脚本语言。</dd>
+    <dt>JSP</dt>
+    <dd>JSP技术使用Java编程语言编写类XML的tags和scriptlets，来封装产生动态网页的处理逻辑。</dd>
+</dl>
+<br /><br />
+
+
+<h2>五、列表 - 水平定义列表</h2>
+<dl class="dl-horizontal">
+    <dt>PHP</dt>
+    <dd>PHP（外文名:PHP: Hypertext Preprocessor，中文名：“超文本预处理器”）是一种通用开源脚本语言。PHP（外文名:PHP: Hypertext Preprocessor，中文名：“超文本预处理器”）是一种通用开源脚本语言。</dd>
+    <dt>JSP</dt>
+    <dd>JSP技术使用Java编程语言编写类XML的tags和scriptlets，来封装产生动态网页的处理逻辑。</dd>
+    <dt>我来测试一个标题，我来测试一个标题</dt>
+    <dd>我在写一个水平定义列表的效果，我在写一个水平定义列表的效果</dd>
+</dl>
+
+
+
+
+
+<script type="text/javascript" src="./themes/js/jquery/2.1.4/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="./themes/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
