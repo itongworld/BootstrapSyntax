@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <link rel="stylesheet" href="assert/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <title>按钮组</title>
+    <style type="text/css">
+        body {
+            padding: 100px;
+            margin: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- btn-group -->
+<div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">Left</button>
+    <button type="button" class="btn btn-default">Middle</button>
+    <button type="button" class="btn btn-default">Right</button>
+</div>
+
+<br/>
+<br/>
+
+<div class="btn-group">
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-zoom-in"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-zoom-out"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-download"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-upload"></span></button>
+</div>
+
+<br/>
+<br/>
+
+<div class="btn-group">
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-step-backward"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fast-backward"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-backward"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-pause"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-stop"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-forward "></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fast-forward"></span></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-step-forward"></span></button>
+</div>
+
+<br/>
+<br/>
+
+
+<!-- btn-toolbar -->
+<div class="btn-toolbar">
+    <div class="btn-group">
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-left"></span></button>
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-center"></span></button>
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-right"></span></button>
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-justify"></span></button>
+    </div>
+    <div class="btn-group btn-group-lg">
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-indent-left"></span></button>
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-indent-right"></span></button>
+    </div>
+    <div class="btn-group btn-group-sm">
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-font"></span></button>
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-bold"></span></button>
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-italic"></span></button>
+    </div>
+    <div class="btn-group btn-group-xs">
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-text-height"></span></button>
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-text-width"></span></button>
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-text-color"></span></button>
+    </div>
+</div>
+
+<!-- 嵌套下拉菜单 -->
+<div class="btn-group">
+    <button class="btn btn-default" type="button">首页</button>
+    <button class="btn btn-default" type="button">产品展示</button>
+    <button class="btn btn-default" type="button">案例分析</button>
+    <button class="btn btn-default" type="button">联系我们</button>
+    <!-- 下拉菜单 -->
+    <div class="btn-group">
+        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">关于我们
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li><a href="#">公司简介</a></li>
+            <li><a href="#">企业文化</a></li>
+            <li><a href="#">组织结构</a></li>
+            <li class="divider"></li>
+            <li><a href="#">客服服务</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--垂直分组按钮-->
+<div class="btn-group-vertical">
+    <button class="btn btn-default" type="button">首页</button>
+    <button class="btn btn-default" type="button">产品展示</button>
+    <button class="btn btn-default" type="button">案例分析</button>
+    <button class="btn btn-default" type="button">联系我们</button>
+    <!-- 下拉菜单 -->
+    <div class="btn-group">
+        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">关于我们
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li><a href="#">公司简介</a></li>
+            <li><a href="#">企业文化</a></li>
+            <li><a href="#">组织结构</a></li>
+            <li class="divider"></li>
+            <li><a href="#">客服服务</a></li>
+        </ul>
+    </div>
+</div><br /><br />
+
+<div class="btn-wrap">
+    <div class="btn-group btn-group-justified">
+        <a class="btn btn-default" href="##">首页</a>  <!-- 使用a标签按钮在点击后不会有蓝色的边框，而button标签则会有一圈蓝色边框 -->
+        <a class="btn btn-default" href="##">产品展示</a>
+        <a class="btn btn-default" href="##">案例分析</a>
+        <a class="btn btn-default" href="##">联系我们</a>
+    </div>
+</div><br /><br />
+
+<!-- 向上弹起的下拉菜单 -->
+<div class="btn-group dropup">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">按钮下拉菜单<span class="caret"></span></button>
+    <ul class="dropdown-menu">
+        <li><a href="##">按钮下拉菜单项</a></li>
+        <li><a href="##">按钮下拉菜单项</a></li>
+        <li><a href="##">按钮下拉菜单项</a></li>
+        <li><a href="##">按钮下拉菜单项</a></li>
+    </ul>
+</div>
+
+
+<script type="text/javascript" src="assert/js/jquery/2.1.4/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="assert/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

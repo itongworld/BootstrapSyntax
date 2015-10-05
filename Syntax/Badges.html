@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>徽章</title>
+    <style type="text/css">
+        body {
+            padding: 100px;
+            margin: 100px;
+        }
+    </style>
+    <link rel="stylesheet" href="assert/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<a href="##">Index <span class="badge">2</span></a>
+<br/><br/>
+<!--有的时候标签内没有内容的时候，可以借助CSS3的:empty伪元素将其隐藏-->
+<a href="##">Index <span class="badge"></span></a>
+<br/><br/>
+
+<!-- 导航条徽章 -->
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <span class="navbar-brand">Brand</span>
+    </div>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="##">Javascript <span class="badge">5</span></a></li>
+        <li><a href="##">PHP</a></li>
+        <li><a href="##">Linux</a></li>
+        <li><a href="##">Python <span class="badge">1</span></a></li>
+    </ul>
+</div>
+<br/><br/>
+
+<!--nav-pills导航徽章-->
+<ul class="nav nav-pills">
+    <li class="active"><a href="#">Home <span class="badge">42</span></a></li>
+    <li><a href="#">Profile</a></li>
+    <li><a href="#">Messages <span class="badge">3</span></a></li>
+</ul>
+<br /><br />
+
+<ul class="nav nav-pills nav-stacked" style="max-width: 260px;">
+    <li class="active">
+        <a href="#">
+            <span class="badge pull-right">42</span>Home
+        </a>
+    </li>
+    <li><a href="#">Profile</a></li>
+    <li>
+        <a href="#">
+            <span class="badge pull-right">3</span>Messages
+        </a>
+    </li>
+</ul>
+<br /><br />
+
+<!--按钮徽章-->
+<button class="btn btn-primary" role="button"><span class="badge">5</span> Message</button>
+
+<script type="text/javascript" src="assert/js/jquery/2.1.4/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="assert/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
