@@ -1,7 +1,7 @@
 # BootstrapSyntax
 [Bootstrap]Basic Syntax Code About Bootstrap.
 <h1>这里是html标签语法</h1>
-<img src='http://imglf0.ph.126.net/HFZRD4kckNgvPRrZxeId7A==/6632408070373263495.jpg'>
+<img src='http://www.bit.edu.cn/images/2013zzgb/logo.jpg'>
 <table>
 <tr><td>haha</td><td>hehe</td></tr>
 <tr><td>haha</td><td>hehe</td></tr>
